@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "show the hidden files"
-          ls-a
+          ls -a
           echo "Java version"
           java -version
           echo "git isntalled?"
